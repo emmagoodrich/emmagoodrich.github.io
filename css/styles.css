@@ -100,6 +100,7 @@ nav ul li a:hover {
 
 .nav-collapse li {
   display: block;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .nav-collapse li a {
@@ -236,7 +237,7 @@ img {
   background-color: #CAE5FF;
   color: #002952;
   text-align: center;
-  max-height: 20px;
+  padding: 10px;
 }
 
 button {
@@ -601,5 +602,13 @@ header {
 
   .photo {
     min-height: 300px;
+  }
+
+  form label {
+    font-size: large;
+  }
+
+  form {
+    max-width: 600px;
   }
 }
