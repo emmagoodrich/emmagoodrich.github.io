@@ -337,6 +337,10 @@ input[type=text], input[type=email], select, textarea {
   text-align: center;
 }
 
+.gallery-text {
+  padding: 0 30px;
+}
+
 .photo {
   position: relative;
   min-width: 250px;
