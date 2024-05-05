@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Emma Goodrich - Gallery</title>
+    <meta name="author" content="Adtile" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/responsive-nav.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">E|G</h1>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item"><a href="index.html" data-scroll>Home</a></li>
+          <li class="menu-item">
+            <a href="gallery.html" data-scroll>Gallery</a>
+          </li>
+          <li class="menu-item">
+            <a href="contact.html" data-scroll>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="grid-layout-gallery">
+      <div class="gallery-text">
+        <h1>Gallery</h1>
+        <p class="source-sans">
+          Check out some of my work below! This is just a small sample of the
+          work I've done over the years, but some of my favorites!
+        </p>
+      </div>
+      <div class="skull-div">
+        <div class="photo">
+          <img
+            class="scaleimg"
+            src="img/art.jpeg"
+            alt="Four-panel artwork of a human skull, each panel painted in a different pastel color: peach, pink, yellow, and blue. The top two panels focus on the skull's eye sockets, while the bottom two panels depict the jaw and teeth. The bold black outlines and color contrasts give a modern and graphic look to the traditional skull imagery."
+          />
+        </div>
+        <div class="skull-text">
+          <h4>Skull on Four Canvases</h4>
+          <p class="source-sans">
+            Acrylic on Canvas <br />
+            (add dimensions) <br />
+            This was a personal project to add a statement piece in my bedroom.
+            It is one of my favorite pieces I have ever done.
+          </p>
+        </div>
+      </div>
+      <div class="lion-div">
+        <div class="photo">
+          <img
+            class="scaleimg"
+            src="img/lion.jpeg"
+            alt="Vibrant painting of a lion's face in shades of pink and magenta against a soft blue background. The image features a stylized depiction of the lion with intense eyes and a lush mane, creating a striking contrast with the calming background."
+          />
+        </div>
+        <div class="lion-text">
+          <h4>Lion in the Sky</h4>
+          <p class="source-sans">
+            Acrylic on Canvas <br />
+            (add dimensions) <br />
+            This was a piece done for my shared room in my sorority house. Our
+            sorority's symbol is a lion. This is one of my more detailed,
+            realistic pieces..
+          </p>
+        </div>
+      </div>
+      <div class="sun-div">
+        <div class="photo">
+          <img
+            class="scaleimg"
+            src="img/sun.jpeg"
+            alt="A bold painting of a sun and moon intertwined, with the moon nestled in the center of the sun's rays, depicted in black against a vibrant yellow background. The facial features of both celestial bodies are stylized and expressive, conveying a sense of harmony and balance."
+          />
+        </div>
+        <div class="sun-text">
+          <h4>Sun & Moon</h4>
+          <p class="source-sans">
+            Acrylic on Canvas<br />
+            18" x 24" <br />
+            This was another personal project to add to my bedroom, but I ended
+            up not loving it. The sun and moon inspiration comes from my parents
+            who have tattoos of the sun and moon as tribute to each other.
+          </p>
+        </div>
+      </div>
+      <div class="jerry-div">
+        <div class="photo">
+          <img
+            class="scaleimg"
+            src="img/jerry.jpeg"
+            alt="Watercolor portrait of a man wearing sunglasses, set against a multicolored rainbow background. The image is framed in black and captures a silhouette-style depiction of the man with distinct facial features and hair, highlighted by the vibrant, colorful backdrop."
+          />
+        </div>
+        <div class="jerry-text">
+          <h4>Portrait of Jerry</h4>
+          <p class="source-sans">
+            Watercolor and Ink <br />
+            9" x 12"<br />
+            This painting was a gift for a Grateful Dead fan. I reallly like how
+            the colorful background behind the black ink turned out.
+          </p>
+        </div>
+      </div>
+      <div class="footer">&copy; 2024 Emma Goodrich Art</div>
+    </div>
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+    <script>
+      document.getElementById("submit").addEventListener("click", myFunction);
+
+      function myFunction() {
+        document.getElementById("name").innerHTML = "";
+        document.getElementById("email").innerHTML = "";
+      }
+    </script>
+  </body>
+</html>
